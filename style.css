@@ -1,0 +1,251 @@
+.nav{
+            
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:linear-gradient(to left,rgb(41, 0, 91),rgb(52, 0, 87),rgb(98, 0, 118));
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.div0{
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: yellow;
+}
+.div11{
+    display:flex ;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    
+   
+}
+
+.div11 img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border: 2px transparent black;
+    border-radius: 20px;
+}
+b{
+    display: block;
+    color: white;
+    font-family: 'Times New Roman';
+   text-size-adjust: 80px;
+   font-size: 50px;
+   
+}
+.div0 {
+    display: flex; 
+    justify-content: space-between;
+
+}
+.ul1{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}       
+.li1 .hom,.li11 .signin{
+    color: yellow;
+    padding: 0px 15px;
+    padding-bottom: 2px ;
+    transition: 0.2s;
+}
+
+.hom{
+     border: 2px solid;
+     border-color: yellow;
+     box-shadow: 0 0 5px,0 0 25px;
+     border-radius: 30px;
+     padding: 0px 10px;
+}
+.hom:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 0 5px,0 0 25px,yellow;
+
+}
+.home .title1,.h2{
+    background:linear-gradient(to left,rgb(41, 0, 91),rgb(52, 0, 87),rgb(98, 0, 118));
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin-top: 0;
+}
+.hom1{
+    border: 2px solid;
+    border-color: yellow;
+    background-color: yellow;
+    border-radius: 30px;
+    padding: 0px 10px;
+    color: black;
+    padding: 0px 15px;
+    padding-bottom: 2px ;
+
+}
+.h2{
+    background:linear-gradient(to left,rgb(41, 0, 91),rgb(52, 0, 87),rgb(98, 0, 118));
+    
+}
+.sec2{
+    display: flex;
+}
+.sec1{
+    padding-top: 30px;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    bottom: 0;
+}
+.home{
+    font-size: 20px;
+    margin: 100px;
+    overflow: scroll;
+    transition-duration: 0.5s;
+    
+}
+.a2{
+    border: 0;
+    background-color: transparent;
+}
+.home:hover{
+    transform: scale(1.1);
+}
+
+    
+.Podcast:hover{
+    transform: scale(1.1);
+}
+.super{
+    display: flex;
+}
+.home,.Podcast{
+    font-size: 20px;
+    padding: 0%;
+    box-shadow: 5px 5px 20px black;
+    width: 600px;
+    height: 300px;
+    transition-duration: 0.5s ;
+    background-color: #b9b9b9bd;
+}
+.Podcast{
+    margin: 100px;
+    right: 600px;
+
+}
+.ul .li{
+    list-style-type: lower-roman;
+    padding: 0px 10px;
+}
+.ul{
+    padding:0px  40px;
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:0px 30px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.ul .li{
+    margin: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+
+}
+.ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+
+}
+
+.signin{
+    border: none;
+    padding: 2px 15px 4px 15px;
+    color: white;
+    border: 2px solid yellow;
+    padding: 0px 10px;
+    transition:all 0.5s;
+    z-index: 1;
+    border-radius: 30px;
+    box-shadow: 0 0 5px yellow, 0 0 25px yellow;
+    color: yellow;
+    background-color: transparent;
+    transition: ease-in-out;
+}
+.signin::before,.signin::after{
+    content: "";
+    position:absolute;
+    z-index: -1;
+}
+
+ .signin:hover{
+    background-color: yellow;
+    color:black;
+}
+body{
+    background: url(OIP.jpg);
+    background: scroll;
+
+}
+.spotifylink{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+strong{
+    font-family:'Times New Roman', Times, serif;
+}
+footer{
+    color:white;
+    background-color: rgb(60, 60, 60);
+    margin-bottom: 0;
+    bottom: 0;
+
+}
+body{
+    background: url(microphone.jpg),center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#desc{
+    font-size: 15px;
+    margin-top: 0;
+}
+.about,.about1{
+    text-align: left;
+}
+.cont{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    margin: 30px;
+   
+}
+.list{
+    padding: 0px 20px;
+    margin: 5px;
+   
+
+}
+
+.copyrght{
+    padding-top: 10px;
+    padding-right: 40px;
+    text-align: right;
+    padding-bottom: 20px;
+}
+.contact{
+    margin-top: 10px;
+}
+html{
+    scroll-behavior: smooth;
+
+}
